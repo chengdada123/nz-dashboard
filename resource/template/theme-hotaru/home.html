@@ -60,8 +60,7 @@
                                 </div>
                             </div>
                         </td>
-                        <td><img :src="'/static/theme-hotaru/img/clients/'+(server.Host&&server.Host.CountryCode?server.Host.CountryCode.toUpperCase():'CN')+'.png'">
-                            &nbsp;@#server.Name#@</td>
+                        <td>@#server.Name#@</td>
                         <td>@#server.Host?server.Host.Platform:'-'#@</td>
                         <td>@#server.Host?server.Host.CountryCode:'-'#@</td>
                         <td>@#server.State?secondToDate(server.State.Uptime):'-'#@</td>
@@ -105,9 +104,9 @@
                     <div class="col-lg-4 col-md-4 col-sm-4" v-for='server in servers' :id="server.ID">
                         <div class="panel panel-block panel-block-sm panel-location">
                             <div class="location-header">
-                               <img
+                                <h3 class="h4"><img
                                         :src="'/static/theme-hotaru/img/clients/'+(server.Host&&server.Host.CountryCode?server.Host.CountryCode.toUpperCase():'CN')+'.png'">
-                                    &nbsp;@#server.Name#@
+                                    &nbsp;@#server.Name#@</h3>
                                 <i class="zmdi zmdi-check-circle text-success"></i>
                             </div>
                             <div class="location-progress">
@@ -136,7 +135,11 @@
         </ul>
     </div>
     <footer>
-
+        <p style="text-align:center;padding: 15px;">Powered by <a href="https://github.com/naiba/nezha">{{tr "NezhaMonitoring"}}</a> build ·
+            {{.Version}}
+            <a href="/service">{{tr "Services"}}</a>
+            <a href="/server">{{tr "AdminPanel"}}</a>
+        </p>
     </footer>
     <script src="https://cdn.staticfile.org/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://cdn.staticfile.org/semantic-ui/2.4.1/semantic.min.js"></script>
