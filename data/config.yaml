@@ -1,0 +1,27 @@
+Cover: 0
+Debug: false
+EnableIPChangeNotification: false
+EnablePlainIPInNotification: false
+GRPCHost:
+GRPCPort:
+HTTPPort: 80
+IPChangeNotificationTag: default
+IgnoredIPNotification: ""
+IgnoredIPNotificationServerIDs: {}
+Language: zh-CN
+Location: Asia/Shanghai
+Oauth2:
+  Admin:
+  ClientID:
+  ClientSecret:
+  Endpoint: ""
+  Type: github
+ProxyGRPCPort: 0
+Site:
+  Brand: Server Status
+  CookieName: nezha-dashboard
+
+  DashboardTheme: default
+  Theme: default
+  ViewPassword: ""
+TLS: false
