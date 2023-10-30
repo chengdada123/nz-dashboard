@@ -4,7 +4,7 @@ EnableIPChangeNotification: false
 EnablePlainIPInNotification: false
 GRPCHost:
 GRPCPort:
-HTTPPort: 80
+HTTPPort: 8000
 IPChangeNotificationTag: default
 IgnoredIPNotification: ""
 IgnoredIPNotificationServerIDs: {}
