@@ -1,7 +1,9 @@
 1、安装git
 
 
-apt install git -y
+apt install git -y 
+或者:apk add git
+或者:yum install git -y
 
 2、克隆代码并进入文件夹执行权限
 
@@ -20,6 +22,6 @@ git clone https://github.com/chengdada123/nz-dashboard.git && cd nz-dashboard &&
 
 
 
-其中main 为哪吒面板的二进制文件，分为amd、arm、alpine、freebsd
+其中main 为哪吒面板的二进制文件，分为amd、arm、alpine、freebsd等版本，根据您自己的系统自行选择运行。
 
 谢谢！
