@@ -20,6 +20,11 @@ git clone https://github.com/chengdada123/nz-dashboard.git && cd nz-dashboard &&
 
 ./main
 
+如果你要后台运行，可以执行nohup ./main &
+或者利用screen
+
+
+
 
 
 其中main 为哪吒面板的二进制文件，分为amd、arm、alpine、freebsd等版本，根据您自己的系统自行选择运行。
