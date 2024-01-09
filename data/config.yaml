@@ -3,7 +3,7 @@ Debug: false
 EnableIPChangeNotification: false
 EnablePlainIPInNotification: false
 GRPCHost:
-GRPCPort:
+GRPCPort: 5555
 HTTPPort: 8800
 IPChangeNotificationTag: default
 IgnoredIPNotification: ""
