@@ -33,4 +33,4 @@ git clone https://github.com/chengdada123/nz-dashboard.git && cd nz-dashboard &&
 
 ![](https://app.dartnode.com/assets/dash/images/brand/logo.png)
 
-[](https://app.dartnode.com)
+*[y](https://app.dartnode.com)
