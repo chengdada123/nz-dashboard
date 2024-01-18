@@ -31,6 +31,6 @@ git clone https://github.com/chengdada123/nz-dashboard.git && cd nz-dashboard &&
 
 谢谢！
 
-(https://app.dartnode.com/assets/dash/images/brand/logo.png)
+![](https://app.dartnode.com/assets/dash/images/brand/logo.png)
 
-(https://app.dartnode.com)
+[](https://app.dartnode.com)
