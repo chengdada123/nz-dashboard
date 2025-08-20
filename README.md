@@ -31,8 +31,6 @@ git clone https://github.com/chengdada123/nz-dashboard.git && cd nz-dashboard &&
 
 谢谢！
 
-*[https://dartnode.com](https://dartnode.com)
-
-![](https://app.dartnode.com/assets/dash/images/brand/logo.png)
+[![Powered by DartNode](https://dartnode.com/branding/DN-Open-Source-sm.png)](https://dartnode.com "Powered by DartNode - Free VPS for Open Source")
 
 
